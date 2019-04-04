@@ -1,13 +1,13 @@
 // PART 1
 // Read input from file
-let fs = require('fs');
-let input = fs.readFileSync('input.txt').toString().split('\n');
+const fs = require('fs');
+const input = fs.readFileSync('input.txt').toString().split('\n');
 
 // Convert contents to numbers
 numbers = input.map(value => parseInt(value));
 
 // Loop over input to get frequency
-let frequency = numbers.reduce((value, sum) => value + sum);
+const frequency = numbers.reduce((value, sum) => value + sum);
 
 // Print frequency
 console.log("Part 1: " + frequency);
