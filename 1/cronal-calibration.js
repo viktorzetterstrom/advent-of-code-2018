@@ -1,3 +1,4 @@
+// Problem: https://adventofcode.com/2018/day/1
 // PART 1
 // Read input from file
 const fs = require('fs');

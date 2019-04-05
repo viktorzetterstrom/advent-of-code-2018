@@ -1,3 +1,4 @@
+// Problem: https://adventofcode.com/2018/day/2
 // PART1
 // Get input
 const fs = require('fs');
